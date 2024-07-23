@@ -86,6 +86,7 @@ body {
 #logo{
   -webkit-filter: blur(1px);
   filter: blur(1px);
+  filter: invert(1);
 }
 
 
