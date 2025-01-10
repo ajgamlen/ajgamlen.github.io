@@ -662,15 +662,15 @@ p {
 
 hr {
   
-  border: 2px solid #0f0f0f;
+  border: 1px solid #0f0f0faf;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-image-source: url("assets/media/border.svg");
+  /* border-image-source: url("assets/media/border.svg");
   border-image-slice: 0 0 100% 0 fill;
   border-image-width: 2;
   border-image-outset: 1.15;
-  border-image-repeat: repeat;
+  border-image-repeat: repeat; */
 }
 
 a {
@@ -1765,7 +1765,12 @@ a#back-to-top:hover {
     position: static;
   }
 }
-
+h3{
+  /* font-weight: bolder; */
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
 h3.writing,
 h3.teaching {
   font-weight: normal;
